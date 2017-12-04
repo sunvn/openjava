@@ -19,7 +19,7 @@ public abstract class ServiceAbstract {
     return (T) arg;
   }
   
-  public void buildHeader() {
+  public void buildCommonParameter() {
     System.out.println("buildCommonParameter");
   }
   

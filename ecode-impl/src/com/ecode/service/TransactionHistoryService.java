@@ -1,6 +1,6 @@
 package com.ecode.service;
 
-public class TransactionHistoryService extends ServiceAbstract implements TransactionService {
+public class TransactionHistoryService extends ServiceAbstract implements IntergationService {
   private static TransactionHistoryService instance = null;
 
   private TransactionHistoryService() {

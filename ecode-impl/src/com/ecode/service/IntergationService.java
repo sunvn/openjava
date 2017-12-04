@@ -1,6 +1,6 @@
 package com.ecode.service;
 
-public interface TransactionService {
+public interface IntergationService {
 
   public Object execute();
 

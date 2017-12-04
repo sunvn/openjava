@@ -2,7 +2,7 @@ package com.ecode.service;
 
 public class ServiceFactory {
   
-  public TransactionService getService( String className){
+  public IntergationService getService( String className){
     if(className.equals("AccountService")) {
       return UserService.getInstance();
     }

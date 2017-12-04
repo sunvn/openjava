@@ -1,6 +1,6 @@
 package com.ecode.service;
 
-public class UserService extends ServiceAbstract implements TransactionService {
+public class UserService extends ServiceAbstract implements IntergationService {
 
   private static UserService instance = null;
 
@@ -17,7 +17,7 @@ public class UserService extends ServiceAbstract implements TransactionService {
 
   public Object execute() {
 
-    System.out.println("Account Service");
+    System.out.println("User Service");
     return null;
 
   }
