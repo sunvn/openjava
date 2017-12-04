@@ -26,5 +26,10 @@ public abstract class ServiceAbstract {
   public void  initializeContext (String serviceName, String uri) {
     
   }
+
+  public Object execute() {
+    // TODO Auto-generated method stub
+    return null;
+  }
   
 }
